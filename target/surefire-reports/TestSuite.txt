@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 13.278 s <<< FAILURE! - in TestSuite
+testLogin(scripts.TestLogin)  Time elapsed: 5.961 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-HV97AC6', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 13796, moz:profile: C:\Users\girish\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0a7f0a15-6d26-46ad-a887-90efc97b9895
+*** Element info: {Using=id, value=username}
+	at scripts.TestLogin.testLogin(TestLogin.java:19)
+
+closeApplication(scripts.TestLogin)  Time elapsed: 5.964 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-HV97AC6', ip: '192.168.43.223', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 13796, moz:profile: C:\Users\girish\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0a7f0a15-6d26-46ad-a887-90efc97b9895
+
